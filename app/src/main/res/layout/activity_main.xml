@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+    <Space
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_0px" />
+    <LinearLayout
+        android:id="@+id/allBtn"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px" />
+        <LinearLayout
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px"
+            android:orientation="horizontal">
+            <Space
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0px" />
+            <ImageButton
+                android:id="@+id/imgbtn_book"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/book"/>
+            <Space
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0px" />
+
+            <ImageButton
+                android:id="@+id/imgbtn_test"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/test"
+                android:onClick="imgbtn_test" />
+
+            <Space
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0px" />
+        </LinearLayout>
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px" />
+        <LinearLayout
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px"
+            android:orientation="horizontal">
+            <Space
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0px" />
+            <ImageButton
+                android:id="@+id/imgbtn_feedback"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/like"/>
+            <Space
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0px" />
+
+            <ImageButton
+                android:id="@+id/btn_hd"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/hd"/>
+            <Space
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_0px" />
+        </LinearLayout>
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px" />
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px"
+            android:orientation="horizontal">
+            <Space
+                android:layout_weight="1"
+                android:layout_width="@dimen/margin_0px"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/btn_Nhatki"
+                android:layout_weight="4"
+                android:layout_width="@dimen/margin_0px"
+                android:layout_height="match_parent"
+                android:text="nhật kí"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_border"
+                android:backgroundTint="@color/blue_light"/>
+            <Space
+                android:layout_weight="1"
+                android:layout_width="@dimen/margin_0px"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_0px" />
+    </LinearLayout>
+
+</LinearLayout>
+

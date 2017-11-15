@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SachCuaTui</string>
+    <string name="tieudenhatki">Tiêu đề nhật kí của bạn</string>
+    <string name="luu">Lưu</string>
+    <string name="nhatkicuaban">Nhật kí của bạn</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="language">Language</string>
+    <string name="english">Engish</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="not_now">Not Now</string>
+    <string name="rating">Rating</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+
+    <string name="home">Home</string>
+    <string name="frag1">Frag1</string>
+    <string name="frag2">Frag2</string>
+    <string name="frag3">Frag3</string>
+    <string name="frag4">Frag4</string>
+    <string name="frag5">Frag5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nhat_ki_">NhatKi_Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

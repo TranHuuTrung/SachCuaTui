@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huutrung.sachcuatui.Book.MyFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/b_g_view_color"
+            >
+            <TextView
+                android:id="@+id/txt_viettruyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nhatkicuaban"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:paddingLeft="70dp"
+                android:layout_centerVertical="true"
+                />
+            <Button
+                android:id="@+id/btn_luu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/luu"
+                android:textSize="20sp"
+                android:textColor="@color/txt_luu"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="false"
+                android:paddingRight="10dp"
+                android:layout_centerVertical="true"
+                />
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tieudenhatki"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nội dung"
+            android:inputType="textMultiLine"
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
