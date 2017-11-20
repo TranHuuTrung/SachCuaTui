@@ -1,6 +1,7 @@
 package com.huutrung.sachcuatui.NhatKi;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.huutrung.sachcuatui.MainActivity;
 import com.huutrung.sachcuatui.R;
 
 /**
@@ -40,7 +42,7 @@ public class NhatKiHomeFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        btn_saveNhatki = (Button) view.findViewById(R.id.btn_saveNhatKi);
+//        btn_saveNhatki = (Button) view.findViewById(R.id.btn_saveNhatKi);
         btn_cancelNhatKi = (Button) view.findViewById(R.id.btn_cancelNhatKi);
 
         edtTitle = (EditText) view.findViewById(R.id.edtTitle);
@@ -80,6 +82,11 @@ public class NhatKiHomeFragment extends Fragment {
             db.updateNhatKi(nhatKi);
         }
 
+    }
+    public void cancleWrite(View view){
+        Intent intent = new Intent(getContext(), MainActivity.class);
+        startActivity(intent);
+//        Toast.makeText(getContext(), "Cancle Write", Toast.LENGTH_SHORT).show();
     }
 
 }
